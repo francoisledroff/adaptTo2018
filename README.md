@@ -23,7 +23,7 @@ We only have about 30/40 minutes, it will be fast, we don't expect you to comple
 
 * First step:  you will [install and configure Adobe Experience Manager (AEM) for Adobe I/O Events](1.aem-event-setup.md)
 * All following steps are optional: you decide what you want to focus on, here is what we offer: 
-  * [Create your own event receiving webhook](2.aem-event-webhooks.md)
+  * [Create your own event receiving webhook, using your own server or going serverless](2.aem-event-webhooks.md)
   * [Register webhooks](3.aem-event-registration.md) to receive AEM events
   * [Understand and tune the OSGI event to Adobe I/O event mapping](4.aem-event-mapping.md)
   * [Test the flow by emitting events from AEM to Adobe I/O](5.aem-event-emitting.md)

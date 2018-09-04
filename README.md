@@ -1,4 +1,4 @@
-## adaptTo2018: Build event-driven integrations with AEM using Adobe I/O Events
+## Build event-driven integrations with AEM using Adobe I/O Events
 
 You'll find here our [AdaptTo() lab](https://adapt.to/2018/en/schedule/build-event-driven-integrations-with-aem-using-adobe-io-events.html) material for 2018
 
@@ -27,7 +27,7 @@ we offer a few exercises for you to try and test the following:
   * [Register the above webhook](3.aem-event-registration.md) to receive AEM events
   * Understand and tune the [OSGI event to Adobe I/O event mapping](4.aem-event-mapping.md)
   * Test the flow by [emitting events from AEM to Adobe I/O](5.aem-event-emitting.md)
-  * [Create and test your own custom OSGI event to Adobe I/O event mapping](6.aem-event-custom.md)
+  * learn how to [map and fire custom AEM/osgi event to Adobe I/O](6.aem-event-custom.md)
   * Learn about the [AEM Adobe I/O Events healthchecks and tuning options](7.aem-event-more.md)
 
 ### Further Documentation

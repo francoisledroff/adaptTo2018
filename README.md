@@ -1,8 +1,8 @@
-## adaptTo2018
+## adaptTo2018: Build event-driven integrations with AEM using Adobe I/O Events
 
-Soon you'll find here our AdaptTo() lab material for 2018
+You'll find here our [AdaptTo() lab](https://adapt.to/2018/en/schedule/build-event-driven-integrations-with-aem-using-adobe-io-events.html) material for 2018
 
-### Build event-driven integrations with AEM using Adobe I/O Events
+### Abstract
 
 Tired of building connectors for AEM? 
 
@@ -10,8 +10,28 @@ Join us in this lab us where we will implement a real-time and lightweight integ
 Come and learn how you can expose any internal `osgi` events from AEM through Adobe I/O Events to build event-driven workflows across multiple systems with ease.
 See how Adobe I/O Events allows you to respond to both administrative events and customer behaviors in real-time.
 
-### Documentation
+### Prerequisite
+
+* an internet connection
+* `git` installed so you can `clone` this repo and `pull` it again during the lab
+* An AEM instance, 6.4.x, with administrative permissions
+
+### The Lab
+
+We only have about 30/40 minutes, it will be fast, we don't expect you to complete everything:
+
+* First step:  you will [install and configure Adobe Experience Manager (AEM) for Adobe I/O Events](1.aem-event-setup.md)
+* All following steps are optional: you to decide what you want to focus on, 
+we offer a few exercises for you to try and test the following:
+  * Create your own [Adobe I/O Events receiving app or simple serverless webhook](2.aem-event-webhooks.md)
+  * [Register the above webhook](3.aem-event-registration.md) to receive AEM events
+  * Understand and tune the [OSGI event to Adobe I/O event mapping](4.aem-event-mapping.md)
+  * Test the flow by [emitting events from AEM to Adobe I/O](5.aem-event-emitting.md)
+  * [Create and test your own custom OSGI event to Adobe I/O event mapping](6.aem-event-custom.md)
+  * Learn about the [AEM Adobe I/O Events healthchecks and tuning options](7.aem-event-more.md)
+
+### Further Documentation
 
 * I/O Events on adobe.io : https://www.adobe.io/apis/cloudplatform/events/documentation.html
-* Adobe I/O Medium Blog: http://medium.com/adobe-io/
+* Adobe I/O Medium Blog: https://medium.com/adobetech
 * Adobe I/O GitHub: https://github.com/adobeio

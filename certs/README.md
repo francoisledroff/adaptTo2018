@@ -9,7 +9,12 @@ In order to speed things up as we only have 30 minutes
 * an integration is also pre-defined on `adobe.io` console at https://console.adobe.io/integrations/43611/47460/overview
   * using the accounts mentioned above you should be able to access it
 
-If you were to do it again, here are the instructions:
+If you were to do it on yourself, if you have an AEM license, you should be able 
+* to use your own customer/organization account against [Adobe I/O Console](https://adobe.io/console)
+* define there your own  AEM Adobe I/O integration
+  * upload there your own certificate 
+
+here are the instructions:
 
 #### Create a certificate and keystore
 

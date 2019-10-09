@@ -3,7 +3,7 @@
 var request = require('request');
 
 /* default slackwebhook and channel add yours here and replace the TODO below */
-var slackWebhook = "https://hooks.slack.com/services/TODO";
+var slackWebhook = "https://hooks.slack.com/services/<your-slack-webhook-url-goes-here>";
 var slackChannel = "general";
 
 function main(params) {
@@ -35,10 +35,7 @@ function main(params) {
     /* we need it to run asynchronously, so we are returning a Promise */
     return new Promise(function (resolve, reject) {
 
-      var eventDetail = params.event['activitystreams:object'];
-      var generator = params.event['activitystreams:generator'];
-
-      var slackMessage = params.event['@type'] + " Event received from " + generator['xdmContentRepository:root'] + " payload : " + JSON.stringify(params.event);
+      var slackMessage = " Event received: " + JSON.stringify(params.event);
 
       var payload = {
         "channel": slackChannel,
@@ -51,8 +48,7 @@ function main(params) {
         method: 'POST',
         url: slackWebhook,
         headers:
-            { 'cache-control': 'no-cache',
-              'content-type': 'application/json' },
+            { 'Content-type': 'application/json' },
         body: JSON.stringify(payload)
       };
 

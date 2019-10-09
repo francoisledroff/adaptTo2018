@@ -1,6 +1,10 @@
 
-## runtime hello world demo
+To start with Adobe I/O runtime, please refer to this doc: https://www.adobe.io/apis/experienceplatform/runtime/docs.html 
 
+Then once set up, here are the few commands I used for my demos.
+If you want to try these out, replace `ledroff` by our own namespace, et `summit` by your own package, refer to https://www.adobe.io/apis/experienceplatform/runtime/docs.html#!adobedocs/adobeio-runtime/master/reference/wsk_use.md for  more details
+
+## runtime hello world demo
 
         wsk action create /ledroff/summit/hello-world ./hello-world.js --web true
         wsk action update /ledroff/summit/hello-world ./hello-world.js --web true

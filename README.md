@@ -1,14 +1,12 @@
 ## Build event-driven integrations with AEM using Adobe I/O Events
 
-You'll find here our [AdaptTo() lab](https://adapt.to/2018/en/schedule/build-event-driven-integrations-with-aem-using-adobe-io-events.html) material for 2018
+You'll find here my [AdaptTo() 2018 lab](https://adapt.to/2018/en/schedule/build-event-driven-integrations-with-aem-using-adobe-io-events.html) material as well as my [Experience League 2019 demos](http://droff.com/content/2019/10/08/experience-league-conf.html)
 
 ### Abstract
 
 Tired of building connectors for AEM? 
 
-Join us in this lab us where we will implement a real-time and lightweight integration with AEM with almost no code.
-Come and learn how you can expose any internal `osgi` events from AEM through Adobe I/O Events to build event-driven workflows across multiple systems with ease.
-See how Adobe I/O Events allows you to respond to both administrative events and customer behaviors in real-time.
+Here you will implement a real-time and lightweight integration with AEM with almost no code. You'll earn how you can expose any internal `osgi` events from AEM through Adobe I/O Events to build event-driven workflows across multiple systems with ease. You'll see how Adobe I/O Events allows us to respond to both administrative events and customer behaviors in real-time.
 
 ### Prerequisite
 
@@ -18,8 +16,6 @@ See how Adobe I/O Events allows you to respond to both administrative events and
 * An AEM instance, 6.4.x, with administrative permissions
 
 ### The Lab
-
-We only have about 30/40 minutes, it will be fast, we don't expect you to complete everything:
 
 * First step:  you will [install and configure Adobe Experience Manager (AEM) for Adobe I/O Events](1.aem-event-setup.md)
 * All following steps are optional: you decide what you want to focus on, here is what we offer: 

@@ -1,6 +1,4 @@
 
-var request = require('request');
-
 function main(params) {
   var returnObject = {
     statusCode: 200,
@@ -12,13 +10,12 @@ function main(params) {
 
   /* handle the hello */
   if (params.hello) {
-    console.log('Returning hello: ' + params.challenge);
-    returnObject.body = new Buffer(JSON.stringify({
-      "bonjour": params.hello
+    console.log('Returning hello: ' + params.hello);
+    returnObject.body = Buffer.from(JSON.stringify({
+      "Bonjour1": params.hello
     })).toString('base64');
     return returnObject;
   } 
 };
 
-exports.main = main;
 

@@ -31,3 +31,4 @@ Here you will implement a real-time and lightweight integration with AEM with al
 * Adobe I/O Events Documentation: https://www.adobe.io/apis/cloudplatform/events/documentation.html
 * Adobe I/O Medium Blog: https://medium.com/adobetech
 * Adobe I/O GitHub: https://github.com/adobeio
+* Getting to Know the Adobe I/O Architecture: Experience Cloud Use Cases: https://medium.com/adobetech/getting-to-know-the-adobe-i-o-architecture-experience-cloud-use-cases-4c63a409ec8c

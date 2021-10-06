@@ -2,29 +2,29 @@
 To start with Adobe I/O runtime, please refer to this doc: https://www.adobe.io/apis/experienceplatform/runtime/docs.html 
 
 Then once set up, here are the few commands I used for my demos.
-If you want to try these out, replace `ledroff` by our own namespace, et `summit` by your own package, 
+If you want to try these out, replace `youradobeioruntimenamespace` by our own namespace, et `youradobeioruntimepackage` by your own package, 
 refer to https://www.adobe.io/apis/experienceplatform/runtime/docs.html#!adobedocs/adobeio-runtime/master/reference/wsk_use.md for  more details
 
 ## runtime 101
 
 create it
 
-    wsk action create /ledroff/summit/runtime101 ./runtime101.js 
+    wsk action create /youradobeioruntimenamespace/youradobeioruntimepackage/runtime101 ./runtime101.js 
 
 invoke it
     
-    wsk action invoke summit/runtime101 --param name Vianney --param place Paris --result --blocking
+    wsk action invoke youradobeioruntimepackage/runtime101 --param name Vianney --param place Paris --result --blocking
  
 update it 
  
-    wsk action update /ledroff/summit/runtime101 ./runtime101.js 
-    wsk action invoke summit/runtime101 --param name Dorothee --param place Kansas --result --blocking
+    wsk action update /youradobeioruntimenamespace/youradobeioruntimepackage/runtime101 ./runtime101.js 
+    wsk action invoke youradobeioruntimepackage/runtime101 --param name Dorothee --param place Kansas --result --blocking
  
 make it a web endpoint
  
-    wsk action update /ledroff/summit/runtime101 ./runtime101.js  --web true
-    wsk action get summit/runtime101 --url    
-    curl https://runtime.adobe.io/api/v1/web/ledroff/summit/runtime101\?name\=Georges\&place\=S%C3%A8te
+    wsk action update /youradobeioruntimenamespace/youradobeioruntimepackage/runtime101 ./runtime101.js  --web true
+    wsk action get youradobeioruntimepackage/runtime101 --url    
+    curl https://runtime.adobe.io/api/v1/web/youradobeioruntimenamespace/youradobeioruntimepackage/runtime101\?name\=Georges\&place\=S%C3%A8te
  
 see the last activation record
 
@@ -37,17 +37,17 @@ see the log
 
 Delete it:
 
-    wsk action delete /ledroff/summit/runtime101
+    wsk action delete /youradobeioruntimenamespace/youradobeioruntimepackage/runtime101
 
 ## slack webhook
 
 ## runtime event webhook 
 
-        wsk action update /ledroff/summit/slack-webhook ./slack-webhook.js --web true
+        wsk action update /youradobeioruntimenamespace/youradobeioruntimepackage/slack-webhook ./slack-webhook.js --web true
 
-        wsk action invoke summit/slack-webhook --param challenge pong --result --blocking
+        wsk action invoke youradobeioruntimepackage/slack-webhook --param challenge pong --result --blocking
 
-        wsk action get summit/slack-webhook --url
+        wsk action get youradobeioruntimepackage/slack-webhook --url
 
         wsk activation list
 
